@@ -1,0 +1,45 @@
+.App {
+    margin: 0;
+    padding: 10px;
+}
+
+.openBtn {
+    cursor: pointer;
+    padding: 13px 25px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    background: #3e95ff;
+}
+
+.modal {
+    width: 520px;
+    border-radius: 8px;
+    background: white;
+    color: white;
+    z-index: 10;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.04);
+}
+
+.modal-content {
+    padding: 20px;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.submit-button {
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 11px 28px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    background: #3e95ff;
+    transition: all 0.25s ease;
+}
+
+.submit-button:hover {
+    box-shadow: 0 10px 20px -10px rgba(62, 136, 255, 0.6);
+    transform: translateY(-5px);
+    background: #3e95ff;
+}
